@@ -4,3 +4,28 @@ body{
     color:burlywood;
     font-family: 'Raleway', sans-serif;    
 }
+#menu{
+    list-style: none;
+    top: 0;
+    right: 50px;
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    z-index: 100;
+    cursor: pointer;
+}
+.links{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.links:hover{
+    font-size: 25px;
+    color: midnightblue;
+}
+#Home{
+    z-index: 99;
+    margin-top: 50px;
+}
