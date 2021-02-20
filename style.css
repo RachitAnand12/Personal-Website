@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-image: radial-gradient(circle, #77b3ff, #70c5ff, #78d5ff, #8be3fe, #a5f0fb, #aaf3fa, #aff6fa, #b4f9f9, #a1f4f8, #8eeff8, #78eaf9, #5fe4fb);
+    color:brown;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+#menu{
+    list-style: none;
+    top: 0;
+    right: 50px;
+    color: red;
+    font-size: 20px;
+    position: fixed;
+    z-index: 100;
+    cursor: pointer;
+}
+.links{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.links:hover{
+    font-size: 25px;
+    color: midnightblue;
+}
+#Home{
+    z-index: 99;
+    margin-top: 50px;
+}
+p{
+    font-size: 30px;
+}
+.work{
+    font-size: 20px;
+}
+#profile{
+    height: 400px;
+    width: 300px;
+}
+#art img{
+    width: 250px;
+    height: 250px;
+}
+hr{
+    width: 150px;
+    height: 5px;
+    background-color: lightcoral; 
+    border-radius: 20px;
+}
